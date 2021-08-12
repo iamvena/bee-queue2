@@ -1,0 +1,20 @@
+{
+  "name": "bee2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "restaurant.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node restaurant.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bull-arena": "^3.0.4",
+    "bee-queue": "^1.4.0",
+    "bull-arena": "^3.29.1",
+    "dotenv": "^10.0.0",
+    "expres": "0.0.5",
+    "redis-server": "^1.2.2"
+  }
+}
